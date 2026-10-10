@@ -1,0 +1,25 @@
+# 민원인 개인정보가 들어가는 폴더 — 절대 커밋하지 않음
+raw/
+out/
+
+# 원본·산출물 형식 (실수로 다른 위치에 둔 경우 대비)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.xlsx
+*.xls
+*.csv
+*.hwp
+*.hwpx
+
+# 로컬 설정
+.claude/settings.local.json
+.env
+*.log
+
+# OS / OneDrive 부산물
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
